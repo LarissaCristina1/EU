@@ -1,0 +1,37 @@
+
+@keyframes changeColor {
+    0% { color: #130c0a; } /* Vermelho */
+    50% { color: #040504; } /* Verde */
+    100% { color: #ff33dd; } /* Azul */
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    animation: changeColor 5s infinite; /* 5 segundos de duração e repetição infinita */
+}
+
+.logo {
+    width: 250px; /* Altere o valor do width conforme necessário */
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção da imagem */
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    animation: changeColor 5s infinite; /* 5 segundos de duração e repetição infinita */
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    animation: changeColor 5s infinite; /* 5 segundos de duração e repetição infinita */
+}
